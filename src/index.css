@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins';
+} 
+
+body {
+  background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+
